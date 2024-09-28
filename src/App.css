@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  padding: 1rem;
+  background-color: rgba(70, 131, 180, 0.359)!important
+ 
+}
+.form{
+  border-radius: 10px;
+  background-color: #61dafb74;
+  box-shadow: 4px 4px 4px 3px rgba(0,0,0,0.5);
+  max-width: 34rem;
+  padding: 3rem;
+  margin: auto;
+  margin-top: 2%;
+
+}
+
+@media screen and (max-width:370px){
+  .form{
+
+    padding: 10px;
+  }
+  .row{
+    margin-right:0.5rem!important;
+
+  }
+  
+}
+
+
+
+.home,.about{
+  color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  margin: 0.5rem;
+  
+}
+
